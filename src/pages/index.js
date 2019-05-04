@@ -75,8 +75,8 @@ class HomeIndex extends React.Component {
     }
 
     render() {
-        const siteTitle = "Gatsby Starter - Strata"
-        const siteDescription = "Site description"
+        const siteTitle = "Akhil"
+        const siteDescription = "Resume"
 
         return (
             <Layout>
@@ -87,18 +87,18 @@ class HomeIndex extends React.Component {
 
                 <div id="main">
 
-                    <section id="one">
+                    <section id="introduction">
                         <header className="major">
-                            <h2>Ipsum lorem dolor aliquam ante commodo<br />
-                            magna sed accumsan arcu neque.</h2>
+                            <h1>Hey, I am a Software Developer at heart and a Computer Science enthusiast.<br /></h1>
                         </header>
-                        <p>Accumsan orci faucibus id eu lorem semper. Eu ac iaculis ac nunc nisi lorem vulputate lorem neque cubilia ac in adipiscing in curae lobortis tortor primis integer massa adipiscing id nisi accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque cubilia.</p>
-                        <ul className="actions">
-                            <li><a href="#" className="button">Learn More</a></li>
-                        </ul>
+                        <p>I am a problem solver. I believe my strongest skill is the ability to analyze problems deeply and come up with practical solutions. Studying in Bangalore the technological center of India, I was exposed to a rich culture of tech startups, coding meetups, and hackathons. This culture taught me that, any problem can be solved with a bit of creative and out of the box thinking. It is the engineer’s responsibility to design and develop a practical implementation of the solution. The ability of an individual computer science engineer to make a great impact was what influenced me to study computer science.</p>
                     </section>
 
-                    <section id="two">
+                    <section id="experience">
+                        <h2>Experience</h2>
+                    </section>
+
+                    <section id="recentwork">
                         <h2>Recent Work</h2>
 
                         <Gallery images={DEFAULT_IMAGES.map(({ id, src, thumbnail, caption, description }) => ({
@@ -108,15 +108,12 @@ class HomeIndex extends React.Component {
                             description
                         }))} />
 
-                        <ul className="actions">
-                            <li><a href="#" className="button">Full Portfolio</a></li>
-                        </ul>
                     </section>
 
-                    <section id="three">
+                    <section id="contact">
                         <h2>Get In Touch</h2>
-                        <p>Accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque lorem ipsum dolor.</p>
-                        <div className="row">
+                        <p>Best way to contact me is by email.</p>
+                        {/* <div className="row">
                             <div className="8u 12u$(small)">
                                 <form method="post" action="#">
                                     <div className="row uniform 50%">
@@ -147,7 +144,7 @@ class HomeIndex extends React.Component {
                                     </li>
                                 </ul>
                             </div>
-                        </div>
+                        </div> */}
                     </section>
 
                 </div>
