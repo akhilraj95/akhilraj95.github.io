@@ -20,8 +20,14 @@ import full04 from '../assets/images/fulls/04.jpg'
 import full05 from '../assets/images/fulls/05.jpg'
 import full06 from '../assets/images/fulls/06.jpg'
 import Education from '../components/Education';
+import Achievement from '../components/Achievement';
 
-const DEFAULT_IMAGES = [
+const IMAGES = [
+    { id: '1', src: full01, thumbnail: thumb01, caption: 'How to write a State Machine in Java ?', description: 'Use State Machines to create an extensible backend framework', link: 'https://medium.com/'},
+    { id: '2', src: full02, thumbnail: thumb02, caption: 'Integrate Asynchronize APIs', description: 'Most systems are synchronous now. Can a synchronous system integrate with an Async API?', link: 'https://medium.com/'}
+];
+
+const BLOGS = [
     { id: '1', src: full01, thumbnail: thumb01, caption: 'How to write a State Machine in Java ?', description: 'Use State Machines to create an extensible backend framework', link: 'https://medium.com/'},
     { id: '2', src: full02, thumbnail: thumb02, caption: 'Integrate Asynchronize APIs', description: 'Most systems are synchronous now. Can a synchronous system integrate with an Async API?', link: 'https://medium.com/'},
 	{ id: '3', src: full02, thumbnail: thumb02, caption: 'Design Patterns in 5 minutes', description: 'Know your patterns. Do not reinvent the wheel.', link: 'https://medium.com/'},
@@ -105,10 +111,27 @@ class HomeIndex extends React.Component {
                         <Education/>
                     </section>
 
-                    <section id="recentwork">
-                        <h2>Recent Work</h2>
+                    <section id="achivements">
+                        <Achievement/>
+                    </section>
 
-                        <Showcase images={DEFAULT_IMAGES.map(({ id, src, thumbnail, caption, description, link}) => ({
+                    <section id="Gallery">
+                        <h2>Writing</h2>
+
+                        <Gallery images={IMAGES.map(({ id, src, thumbnail, caption, description, link}) => ({
+                            src,
+                            thumbnail,
+                            caption,
+                            description, 
+                            link
+                        }))} />
+
+                    </section>
+
+                    <section id="Writing">
+                        <h2>Writing</h2>
+
+                        <Showcase images={BLOGS.map(({ id, src, thumbnail, caption, description, link}) => ({
                             src,
                             thumbnail,
                             caption,
