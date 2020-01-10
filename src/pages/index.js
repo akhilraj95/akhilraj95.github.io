@@ -19,6 +19,13 @@ import full03 from '../assets/images/fulls/03.jpg'
 import full04 from '../assets/images/fulls/04.jpg'
 import full05 from '../assets/images/fulls/05.jpg'
 import full06 from '../assets/images/fulls/06.jpg'
+
+import andarc from '../assets/images/andarc.png'
+import logit from '../assets/images/logit.png'
+import naturescall from '../assets/images/naturescall.png'
+import ridar from '../assets/images/ridar.png'
+
+
 import Education from '../components/Education';
 import Achievement from '../components/Achievement';
 
@@ -98,10 +105,14 @@ class HomeIndex extends React.Component {
 
                     <section id="introduction">
                         <header className="major">
-                            <h1>Hey, I am a Software Developer at heart and a Computer Science enthusiast.<br /></h1>
+                            <h1>Hey, I am a Software Engineer at heart and a Computer Science enthusiast.<br /></h1>
                         </header>
-                        <p>I am a problem solver. I believe my strongest skill is the ability to analyze problems deeply and come up with practical solutions. Studying in Bangalore the technological center of India, I was exposed to a rich culture of tech startups, coding meetups, and hackathons. This culture taught me that, any problem can be solved with a bit of creative and out of the box thinking. It is the engineer’s responsibility to design and develop a practical implementation of the solution. The ability of an individual computer science engineer to make a great impact was what influenced me to study computer science.</p>
+                         <p>I am a problem solver. 
+                            I believe my strongest skill is the ability to come up with a pragmatic solutions for any problem you throw at me. 
+                            Studying in Bangalore the tech epicenter of India, I was exposed to a rich culture of tech startups, coding meetups, and hackathons.
+                            This culture taught me that, any problem can be solved with a bit of creative and out of the box thinking.</p>
                     </section>
+                    
 
                     <section id="experience">
                         <Experience/>
@@ -115,7 +126,82 @@ class HomeIndex extends React.Component {
                         <Achievement/>
                     </section>
 
-                    <section id="Gallery">
+                    <section id="achivements">
+                        <div id="Achievements">
+                            <h2>Gallery</h2>
+                            <div className="row">
+                                <div className="6u">
+                                    <iframe width="400" height="250" src="https://www.youtube.com/embed/Ky49BDn2_bY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    <br/>
+                                    <b>Keras Get Started Walkthrough:</b> 
+                                    <h5>Watch me show how to do Handwritten Digit Recognition using Convolutional Neural Networks in Python with Keras and Sentiment Analysis of Movie Reviews on IMDB </h5>
+                                </div>
+                                <div className="6u">
+                                    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTna9EcymqYHoxxrfMMqEpuPKLgkKDSYDURiAc5nJc0xbsIbDRQjqItYq8LsUCFVtxu4Vkde3oqQEt5/embed?start=true&loop=false&delayms=2000" frameborder="0" width="400" height="250" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">
+                                    </iframe>
+                                    <br/>
+                                    <b><a href="https://docs.google.com/presentation/d/e/2PACX-1vTna9EcymqYHoxxrfMMqEpuPKLgkKDSYDURiAc5nJc0xbsIbDRQjqItYq8LsUCFVtxu4Vkde3oqQEt5/pub?start=true&loop=true&delayms=3000" target="_blank">Event Driven Frameworks</a></b> 
+                                    <h5>This session I taught was a part of the training program for incoming developers at Directi. 
+                                        It talks about why event driven development is more scalable and gives a brief introduction to <a href="https://kafka.apache.org/" target="_blank">Apache Kafka</a>. 
+                                        This was based on the blog written by <a href="https://martinfowler.com/articles/201701-event-driven.html" target="_blank">Martin Fowler</a>.
+                                        Checkout the exercise on <a href="https://github.com/akhilraj95/kafka-demo"><span className="icon fa-github"></span></a></h5>
+                                        
+                                </div>
+                            </div>
+                            <div className="row">
+                                <div className="6u">
+                                    <iframe width="400" height="250" src="https://www.youtube.com/embed/f2xmXJjGSH4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    <br/>
+                                    <b>Xpense</b> 
+                                    <h5>An expense manager for you team on the <a href="https://flock.com/">Flock Messege Service</a>. The integration was developed at Flockathon, Feb 2017. This app won the runner up at the hackathon.</h5>
+                                </div>
+                                <div className="6u">
+                                    <iframe width="400" height="250" src="https://www.youtube.com/embed/fbssmD9DFBc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    <br/>
+                                    <b><a href="https://akhilraj.dev/LogIt/?fbclid=IwAR1uAlMEgpKMo1E26ZpTuJHlwhVF95RBom0ur3IZO0NA_qrCOq63wAtuLn4">Logit</a></b> 
+                                    <h5>Logit is an Android App that I developed in 2016. It lets you shoot and organize short videos, merge the short videos into one movie, add music and share it on any media.
+                                        
+                                    </h5>
+                                </div>
+                            </div>
+
+                            <div className="row">
+                                <div className="6u">
+                                    <img src={naturescall} width="400" height="275"/>
+                                    <br/>
+                                    <b>NaturesCall</b> 
+                                    <h5>This was a mobile friendly website built to find and navigate to the closest useable washroom in India. The website was easy to use. It even let you rate the washroom you used. This was developed for the DigitalOcean hack in 2016. The website is currently down because its not being actively maintained.</h5>
+                                </div>
+                                <div className="6u">
+                                    <img src={ridar} width="400" height="275"/>
+                                    <br/>
+                                    <b><a href="https://akhilraj.dev/LogIt/?fbclid=IwAR1uAlMEgpKMo1E26ZpTuJHlwhVF95RBom0ur3IZO0NA_qrCOq63wAtuLn4">RidAr</a></b> 
+                                    <h5>Runners up at ITC infotech AR/VR hackathon. 
+                                        RidAR provides unobtrusive navigation for bikers, so they need not stop and check their phone for directions. 
+                                        Android application that relays live navigation information from HERE maps API to the Bluetooth enabled helmet. 
+                                        The Arduino attached to the helmet interprets the information and signals the biker on which turn to take when. </h5>
+                                </div>
+                            </div>
+
+                            <div className="row">
+                                <div className="6u">
+                                    <img src={andarc} width="400" height="275"/>
+                                    <br/>
+                                    <b>Andarc</b> 
+                                    <h5>Andarc is an Android Game that was developed on the Corona Game Engine. It was developed as a part of a game development challenge by Corona Labs. Andarc was chosen as the runner up. It is currently removed from the playstore because I am not actively maintaining it.</h5>
+                                </div>
+                                <div className="6u">
+                                    <img src={logit} width="400" height="275"/>
+                                    <br/>
+                                    <b><a href="https://akhilraj.dev/LogIt/?fbclid=IwAR1uAlMEgpKMo1E26ZpTuJHlwhVF95RBom0ur3IZO0NA_qrCOq63wAtuLn4">Logit</a></b> 
+                                    <h5>Screenshots of the <a href="https://akhilraj.dev/LogIt/?fbclid=IwAR1uAlMEgpKMo1E26ZpTuJHlwhVF95RBom0ur3IZO0NA_qrCOq63wAtuLn4">Logit</a> Android App that I developed.</h5>
+                                </div>
+                            </div>
+
+                        </div>
+                    </section>
+                    
+                    {/* <section id="Gallery">
                         <h2>Writing</h2>
 
                         <Gallery images={IMAGES.map(({ id, src, thumbnail, caption, description, link}) => ({
@@ -126,8 +212,8 @@ class HomeIndex extends React.Component {
                             link
                         }))} />
 
-                    </section>
-
+                    </section> */}
+{/* 
                     <section id="Writing">
                         <h2>Writing</h2>
 
@@ -139,45 +225,35 @@ class HomeIndex extends React.Component {
                             link
                         }))} />
 
-                    </section>
+                    </section> */}
 
                     <section id="contact">
                         <h2>Get In Touch</h2>
-                        <p>Best way to contact me is by email.</p>
+                        <p>Best way to get in touch with me is by email.</p>
                         <div className="row">
-                            <div className="8u 12u$(small)">
-                                <form method="post" action="#">
-                                    <div className="row uniform 50%">
-                                        <div className="6u 12u$(xsmall)"><input type="text" name="name" id="name" placeholder="Name" /></div>
-                                        <div className="6u 12u$(xsmall)"><input type="email" name="email" id="email" placeholder="Email" /></div>
-                                        <div className="12u"><textarea name="message" id="message" placeholder="Message" rows="4"></textarea></div>
-                                    </div>
-                                </form>
-                                <ul className="actions">
-                                    <li><input type="submit" value="Send Message" /></li>
-                                </ul>
-                            </div>
-                            <div className="4u 12u$(small)">
+                            <div className="12u 12u$(small)">
                                 <ul className="labeled-icons">
                                     <li>
-                                        <h3 className="icon fa-home"><span className="label">Address</span></h3>
-                                        1234 Somewhere Rd.<br />
-                                        Nashville, TN 00000<br />
-                                        United States
+                                        <h3 className="icon fa-envelope-o"><span className="label">Email</span></h3>
+                                        <a>akhil95raj@gmail.com</a>
+                                    </li>
+                                    <li>
+                                        <h3 className="icon fa-envelope-o"><span className="label">University Email</span></h3>
+                                        <a>ara242@cornell.edu</a>
                                     </li>
                                     <li>
                                         <h3 className="icon fa-mobile"><span className="label">Phone</span></h3>
-                                        000-000-0000
+                                        (607)-319-1862
                                     </li>
                                     <li>
-                                        <h3 className="icon fa-envelope-o"><span className="label">Email</span></h3>
-                                        <a href="#">hello@untitled.tld</a>
+                                        <h3 className="icon fa-home"><span className="label">Address</span></h3>
+                                        <a href="https://goo.gl/maps/rjw8jTgeJr7e5HGr9" target="_blank" >Ithaca, New York - 14850<br />
+                                        United States</a>
                                     </li>
                                 </ul>
                             </div>
                         </div>
                     </section>
-
                 </div>
 
             </Layout>
