@@ -29,6 +29,7 @@ import ridar from '../assets/images/ridar.png'
 import Education from '../components/Education';
 import Achievement from '../components/Achievement';
 import Research from "../components/Research";
+import Skills from "../components/Skills";
 
 const IMAGES = [
     { id: '1', src: full01, thumbnail: thumb01, caption: 'How to write a State Machine in Java ?', description: 'Use State Machines to create an extensible backend framework', link: 'https://medium.com/'},
@@ -113,7 +114,10 @@ class HomeIndex extends React.Component {
                             Studying in Bangalore the tech epicenter of India, I was exposed to a rich culture of tech startups, coding meetups, and hackathons.
                             This culture taught me that, any problem can be solved with a bit of creative and out of the box thinking.</p>
                     </section>
-                    
+
+                    <section id="skills">
+                        <Skills/>
+                    </section>
 
                     <section id="experience">
                         <Experience/>
