@@ -65,7 +65,7 @@ class Skills extends React.Component {
                                 <li>Moving from synchronous to asynchronous</li>
                             </ul>
                         
-                            <b>Experience working in Industry with</b>
+                            <b>Experience working in industry with</b>
                             <ul>                               
                                 <li>Relational Databases (Postgres, MySQL)</li>
                                 <li>NoSQL Databases (Casandra, Redis, MongoDB)</li>

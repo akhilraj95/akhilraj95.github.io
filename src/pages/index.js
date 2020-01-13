@@ -113,6 +113,8 @@ class HomeIndex extends React.Component {
                             I believe my strongest skill is the ability to come up with a pragmatic solutions for any problem you throw at me. 
                             Studying in Bangalore the tech epicenter of India, I was exposed to a rich culture of tech startups, coding meetups, and hackathons.
                             This culture taught me that, any problem can be solved with a bit of creative and out of the box thinking.</p>
+
+                        <a href="https://drive.google.com/file/d/1rq-QBmqTUomcXFOFTrto7WSSyERPygD0/view" target="_blank">View Resume</a>
                     </section>
 
                     <section id="skills">
