@@ -9,7 +9,7 @@ class Skills extends React.Component {
                     <div className="row">
                         <div className="12u$(small)">
                             I have experience in strategically breaking down legacy systems to microservices, adopting cloud, zero downtime system migrations, designing and authoring services from scratch, moving from synchronous to asynchronous systems. My experience redesigning the legacy monolith at my previous company enables me to develop highly scalable, reliable and performant systems.
-                            <br/> <b>In Academia,</b> I have experience with Machine learning for data science, natural language processing and reinforcement learning.
+                            <br/> <b>In Academia,</b> I have experience with Machine learning for data science, Natural Language Processing and reinforcement learning.
                         </div>
                     </div>
                     <div className="row">
@@ -60,7 +60,7 @@ class Skills extends React.Component {
                                 <li>Designing for highly availability</li>
                                 <li>Breaking down legacy systems to microservices</li>
                                 <li>Adopting Cloud</li>
-                                <li>Zero downtime system migra</li>
+                                <li>Zero downtime system migration</li>
                                 <li>Event Driven Programming</li>
                                 <li>Moving from synchronous to asynchronous</li>
                             </ul>
@@ -71,7 +71,7 @@ class Skills extends React.Component {
                                 <li>NoSQL Databases (Casandra, Redis, MongoDB)</li>
                                 <li>Message Queues (ActiveMQ, AWS SQS, Kafka)</li>
                                 <li>API Gateway (Kong, Zuul, AWS Gateway)</li>
-                                <li>Desigining REST APIs</li>
+                                <li>Designing REST APIs</li>
                                 <li>Asynchronous APIs (With Callbacks and Reactive)</li>
                                 <li>Caching (With Redis and Caffeine)</li>
                                 <li>Cloud (AWS)</li>
