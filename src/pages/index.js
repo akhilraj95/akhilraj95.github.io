@@ -114,7 +114,7 @@ class HomeIndex extends React.Component {
                             Studying in Bangalore the tech epicenter of India, I was exposed to a rich culture of tech startups, coding meetups, and hackathons.
                             This culture taught me that, any problem can be solved with a bit of creative and out of the box thinking.</p>
 
-                        <a href="https://drive.google.com/file/d/1rq-QBmqTUomcXFOFTrto7WSSyERPygD0/view" target="_blank">View Resume</a>
+                        <a href="https://drive.google.com/file/d/1Fil0WDGMKrpQQf1vWfvZWw2wwBH3AgYu/view?usp=sharing" target="_blank">View Resume</a>
                     </section>
 
                     <section id="skills">
