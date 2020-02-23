@@ -110,7 +110,7 @@ class HomeIndex extends React.Component {
                             <h1>Hey, I am a Software Engineer at heart and a Computer Science enthusiast.<br /></h1>
                         </header>
                          <p>I am a problem solver. 
-                            I believe my strongest skill is the ability to come up with a pragmatic solutions for any problem you throw at me. 
+                            I believe my strongest skill is the ability to come up with pragmatic solutions for any problem you throw at me. 
                             Studying in Bangalore the tech epicenter of India, I was exposed to a rich culture of tech startups, coding meetups, and hackathons.
                             This culture taught me that, any problem can be solved with a bit of creative and out of the box thinking.</p>
 
