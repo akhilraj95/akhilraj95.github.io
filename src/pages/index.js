@@ -109,10 +109,13 @@ class HomeIndex extends React.Component {
                         <header className="major">
                             <h1>Hey, I am a Software Engineer at heart and a Computer Science enthusiast.<br /></h1>
                         </header>
-                         <p>I am a problem solver. 
-                            I believe my strongest skill is the ability to come up with pragmatic solutions for any problem you throw at me. 
-                            Studying in Bangalore the tech epicenter of India, I was exposed to a rich culture of tech startups, coding meetups, and hackathons.
-                            This culture taught me that, any problem can be solved with a bit of creative and out of the box thinking.</p>
+                         <p>I am a problem solver and a go-getter. 
+                            My greatest strengths are analytical problem-solving and developing sound hypotheses. I take pride in coming up with practical solutions for problems thrown at me. 
+                            My diverse experience helps me look at problems with a unique perspective.  
+                            Being brought up in Bangalore, the tech epicenter of India, I experienced a rich tech culture. I have worked for multiple early-stage startups before starting my formal career in one of India's first tech startups. My experience here gave me faith in out of the box thinking. No problem is too hard if you put in enough thought and effort! 
+                            In contrast, the time I spent at Cornell performing research taught me the benefits of a formal approach to problem-solving. Here, I learned how valuable defining a problem is to solve it.  
+                            Now I work at Amazon. I am learning how to contribute to a well oiled nimble enterprise that operates at unfathomable scales!
+                            </p>
 
                         <a href="https://drive.google.com/file/d/1Fil0WDGMKrpQQf1vWfvZWw2wwBH3AgYu/view?usp=sharing" target="_blank">View Resume</a>
                     </section>

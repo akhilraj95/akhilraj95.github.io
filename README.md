@@ -30,13 +30,6 @@ https://github.com/tschaub/gh-pages
 
 
 
-
-
-
-
-
-
-
 ## Installation
 
 Install this starter (assuming Gatsby is installed) by running from your CLI:
