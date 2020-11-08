@@ -112,9 +112,10 @@ class HomeIndex extends React.Component {
                          <p>I am a problem solver and a go-getter. 
                             My greatest strengths are analytical problem-solving and developing sound hypotheses. I take pride in coming up with practical solutions for problems thrown at me. 
                             My diverse experience helps me look at problems with a unique perspective.  
-                            Being brought up in Bangalore, the tech epicenter of India, I experienced a rich tech culture. I have worked for multiple early-stage startups before starting my formal career in one of India's first tech startups. My experience here gave me faith in out of the box thinking. No problem is too hard if you put in enough thought and effort! 
-                            In contrast, the time I spent at Cornell performing research taught me the benefits of a formal approach to problem-solving. Here, I learned how valuable defining a problem is to solve it.  
-                            Now I work at Amazon. I am learning how to contribute to a well oiled nimble enterprise that operates at unfathomable scales!
+                            Being brought up in Bangalore, the tech epicenter of India, I experienced a rich tech culture. 
+                            I have worked for multiple early-stage startups before starting my career in one of India's first tech startups. I experienced how fun, working in a fast paced, dynamic and informal environment can be. 
+                            In contrast, the time I spent at Cornell performing research taught me the benefits of a formal approach to problem-solving.
+                            Now I work at Amazon where I am learning how to contribute to a well oiled nimble enterprise that operates at unfathomable scales!
                             </p>
 
                         <a href="https://drive.google.com/file/d/1Fil0WDGMKrpQQf1vWfvZWw2wwBH3AgYu/view?usp=sharing" target="_blank">View Resume</a>
