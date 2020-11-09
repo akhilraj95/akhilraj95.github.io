@@ -10,7 +10,7 @@ class Experience extends React.Component {
                             <large><b>Software Development Engineer II @ <a href="https://www.linkedin.com/company/amazon" target="_blank">Amazon</a> </b></large>
                         </div>
                         <div className="6u 12u$(small)" align="right">
-                            <large>(June 2020 - present)</large>
+                            <large>4 months (June 2020 - present)</large>
                         </div>
                 </div>
                 <div className="row">

@@ -15,7 +15,7 @@ class Skills extends React.Component {
                             At the moment, I am working on scheduling shared resources in disaggregated systems. 
                             <br/> 
                             <br/> 
-                            <b>At university,</b> I studied Machine learning, Natural Language Processing and Computer Vision. In the past I have dabbled with some research on Reinforcement learning and Common Sense Reasoning.
+                            <b>At University,</b> I studied Machine learning, Natural Language Processing and Computer Vision. In the past I have dabbled with some research on Reinforcement learning and Common Sense Reasoning.
                         </div>
                     </div>
                     <div className="row">
@@ -26,7 +26,7 @@ class Skills extends React.Component {
                                 <li>Java - My preferred lang (3 yrs pro)</li>
                                 <li>Python - My preferred scripting lang (3 yrs pro)</li>
                                 <li>C++/C - Basic working knowledge (1 yr pro) </li>
-                                <li>GO - Newly acquired</li>
+                                <li>Go - Newly acquired</li>
                                 <li>Javascript - Basic Working knowledge</li>
                             </ul>
                             <b>Machine Learning and AI</b>
