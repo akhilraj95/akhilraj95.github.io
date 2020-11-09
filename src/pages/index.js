@@ -262,7 +262,7 @@ class HomeIndex extends React.Component {
                                     </li>
                                     <li>
                                         <h3 className="icon fa-home"><span className="label">Address</span></h3>
-                                        <a href="https://goo.gl/maps/rjw8jTgeJr7e5HGr9" target="_blank" >Ithaca, New York - 14850<br />
+                                        <a href="https://goo.gl/maps/BXe2XCT6KHzs18Jv7" target="_blank" >Seattle, Washington - 98101<br />
                                         United States</a>
                                     </li>
                                 </ul>

@@ -8,20 +8,26 @@ class Skills extends React.Component {
                 <h2>Skills</h2>
                     <div className="row">
                         <div className="12u$(small)">
-                            I have experience in strategically breaking down legacy systems to microservices, adopting cloud, zero downtime system migrations, designing and authoring services from scratch, moving from synchronous to asynchronous systems. My experience redesigning the legacy monolith at my previous company enables me to develop highly scalable, reliable and performant systems.
-                            <br/> <b>In Academia,</b> I have experience with Machine learning for data science, Natural Language Processing and reinforcement learning.
+                            <b>Professionally</b>, I have experience in strategically breaking down legacy systems to microservices, adopting cloud, zero downtime system migrations, designing and authoring services from scratch, moving from synchronous to asynchronous systems. My experience redesigning the legacy monolith at my previous company enables me to develop highly scalable, reliable and performant systems.
+                            <br/> 
+                            <br/> 
+                            <b>In Academia,</b> I have experience doing systems research with a focus on multitenancy. I have worked on providing fairness gurantees in resource sharing.  
+                            At the moment, I am working on scheduling shared resources in disaggregated systems. 
+                            <br/> 
+                            <br/> 
+                            <b>At university,</b> I studied Machine learning, Natural Language Processing and Computer Vision. In the past I have dabbled with some research on Reinforcement learning and Common Sense Reasoning.
                         </div>
                     </div>
                     <div className="row">
                         <div className="6u 6u$(small)">
                             <br/>
-                            <b>Languages</b>
+                            <b>Languages I can code in</b>
                             <ul>
-                                <li>Java - (2 yrs Industry, 6 yrs Academia)</li>
-                                <li>Python - (2 yrs Industry, 7 yrs Academia)</li>
-                                <li>C++/C - (5 yrs Academia)</li>
-                                <li>Javascript - (2 yrs Personal)</li>
-                                <li>SQL - (2 yrs Industry, 6 yrs Academia)</li>
+                                <li>Java - My preferred lang (3 yrs pro)</li>
+                                <li>Python - My preferred scripting lang (3 yrs pro)</li>
+                                <li>C++/C - Basic working knowledge (1 yr pro) </li>
+                                <li>GO - Newly acquired</li>
+                                <li>Javascript - Basic Working knowledge</li>
                             </ul>
                             <b>Machine Learning and AI</b>
                             <ul>

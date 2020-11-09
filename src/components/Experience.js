@@ -7,6 +7,28 @@ class Experience extends React.Component {
                 <h2>Experience</h2>
                 <div className="row">
                         <div className="6u 12u$(small)">
+                            <large><b>Software Development Engineer II @ <a href="https://www.linkedin.com/company/amazon" target="_blank">Amazon</a> </b></large>
+                        </div>
+                        <div className="6u 12u$(small)" align="right">
+                            <large>(June 2020 - present)</large>
+                        </div>
+                </div>
+                <div className="row">
+                        <div className="12u 12u$(small)">
+                            <p>I work in Amazon's supply chain optimization team. My team builds and maintains a simulation platform that models Amazon supply chain with high fidelity. 
+                            <ul>
+                                <li>I am working on overhauling the data collection pipelines for my team.  
+                                    <ol>
+                                        <li>Migrating the simulator's ETL pipelines to Spark(AWS EMR)</li>
+                                        <li>Redesigning the orchestration for the ETL jobs by onboarding the system on to AWS Step Functions</li>
+                                    </ol>
+                                </li>
+                            </ul>
+                            </p>
+                        </div>
+                </div>
+                <div className="row">
+                        <div className="6u 12u$(small)">
                             <large><b>Software  Engineer @ <a href="https://www.linkedin.com/company/endurance-international-group/" target="_blank">LogicBoxes - Directi (EIG)</a> </b></large>
                         </div>
                         <div className="6u 12u$(small)" align="right">

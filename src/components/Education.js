@@ -24,18 +24,24 @@ class Education extends React.Component {
                     </div>
                     <div className="row"> 
                         <div className="12u 12u$(small)">
-                            <b>Distributed Systems Research:</b> Working under Professor <a href="https://www.cs.cornell.edu/~ragarwal/index.html" target="_blank">Rachit Agarwal</a>  on 
-                            efficiently multiplexing cache capacity across multiple tenants operating in a shared cluster while providing isolation guarantees.
-                            <br/>
+                            <b>Distributed Systems Research:</b> 
+                            <ul>
+                                <li>Worked under Professor <a href="https://www.cs.cornell.edu/~ragarwal/index.html" target="_blank">Rachit Agarwal</a>  on 
+                                efficiently multiplexing cache capacity across multiple tenants operating in a shared cluster while providing isolation guarantees.</li>
+                                <li>Working under Professor <a href="https://www.cs.cornell.edu/~ragarwal/index.html" target="_blank">Rachit Agarwal</a>  on 
+                                building a generic scheduler for shared resources in a disaggregated multitenant system.</li>
+                            </ul>
                         </div>
                     </div>
                     <div className="row">
+                        <b>What have I studied at Cornell ?</b> <br/>
+                        <text>My research focus was on systems but the courses I took were mostly on ML. My objective was to generalize not specialize.</text>
+
                         <div className="6u 12u$(small)">
-                            <b>What have I studied at Cornell ?</b>
                             <ul> 
+                                <li>Advanced Artificial Intelligence</li>
                                 <li>Machine Learning for Intelligent Systems</li>
                                 <li>Natural Language Processing</li>
-                                <li>Artificial Intelligence</li>
                                 <li>Designing New Ventures</li>
                             </ul>
                         </div>
@@ -50,7 +56,7 @@ class Education extends React.Component {
                     </div>
                     <div className="row">
                         <div className="7u 12u$(small)">
-                            <b>Bachelor of Engineering, Computer Science</b><br/>
+                            <h3>Bachelor of Engineering, Computer Science</h3>
                             Ramaiah Institute of Technology<br/>
                             <div>GPA: 9.35</div>
                             <div></div><br/>
