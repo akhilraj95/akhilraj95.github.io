@@ -118,7 +118,7 @@ class HomeIndex extends React.Component {
                             Now I work at Amazon where I am learning how to contribute to a well oiled nimble enterprise that operates at unfathomable scales!
                             </p>
 
-                        <a href="https://drive.google.com/file/d/1Fil0WDGMKrpQQf1vWfvZWw2wwBH3AgYu/view?usp=sharing" target="_blank">View Resume</a>
+                        <a href="https://drive.google.com/file/d/1j_-jsDpe7YL5h69MNFVLQrkAnKqT7uyy/view?usp=sharing" target="_blank">View Resume</a>
                     </section>
 
                     <section id="skills">
